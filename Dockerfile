@@ -5,6 +5,7 @@ LABEL "com.github.actions.description"="Auotmatically commits changed files and 
 LABEL "com.github.actions.icon"="git-commit"
 LABEL "com.github.actions.color"="orange"
 
+ENV ADD_FILES false
 COPY entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]

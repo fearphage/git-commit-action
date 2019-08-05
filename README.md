@@ -9,7 +9,7 @@
 ## Optional
 
 * `ADD_FILES` - If set to `true`, this will call `git add --all` before committing files. Note: This is
-  only required to add new (untracked) files. Changes are automatically picked up by `git commit`.
+  only required to add new (untracked) files. Changes are automatically picked up by `git commit --all`.
 
 ## Usage
 
